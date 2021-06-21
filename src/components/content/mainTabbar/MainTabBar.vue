@@ -1,20 +1,36 @@
 <template>
   <div>
-    <tab-bar/>
+    <tab-bar>
+      <tab-bar-item path="/home" activeColor="blue">
+        <img src="~assets/img/tabbar/home.svg" alt="" slot="item-icon">
+        <img src="~assets/img/tabbar/home_active.svg" alt="" slot="item-icon-active">
+        <div slot="item-text">主页</div>
+      </tab-bar-item>
+      <tab-bar-item path="/category">
+        <img src="~assets/img/tabbar/category.svg" alt="" slot="item-icon">
+        <img src="~assets/img/tabbar/category_active.svg" alt="" slot="item-icon-active">
+        <div slot="item-text">分类</div></tab-bar-item>
+      <tab-bar-item path="/cart" activeColor="blue">
+        <img src="~assets/img/tabbar/cart.svg" alt="" slot="item-icon">
+        <img src="~assets/img/tabbar/cart_active.svg" alt="" slot="item-icon-active">
+        <div slot="item-text">购物车</div></tab-bar-item>
+      <tab-bar-item path="/profile">
+        <img src="~assets/img/tabbar/profile.svg" alt="" slot="item-icon">
+        <img src="~assets/img/tabbar/profile_active.svg" alt="" slot="item-icon-active">
+        <div slot="item-text">我的</div></tab-bar-item>
+    </tab-bar>
   </div>
 </template>
 
 // <script>
-import TabBar from '../../common/tabbar/TabBar.vue';
-// import TabBar from 'components/tabbar/TabBar.vue'
-// import TabBarItem from 'components/tabbar/TabBarItem.vue'
+import TabBar from 'components/common/tabbar/TabBar.vue';
+import TabBarItem from 'components/common/tabbar/TabBarItem.vue'
 
 export default {
   name: "MainTabBar",
   components: {
-    TabBar
-    // TabBar,
-    // TabBarItem
+    TabBar,
+    TabBarItem
   },
 };
 </script>
