@@ -1,13 +1,238 @@
 <template>
-  <h2>分类</h2>
+  <div class="wrapper">
+    <ul>
+      <li>messageeee1</li>
+      <li>messageeee2</li>
+      <li>messageeee3</li>
+      <li>messageeee4</li>
+      <li>messageeee5</li>
+      <li>messageeee6</li>
+      <li>messageeee7</li>
+      <li>messageeee8</li>
+      <li>messageeee9</li>
+      <li>messageeee10</li>
+      <li>messageeee11</li>
+      <li>messageeee12</li>
+      <li>messageeee13</li>
+      <li>messageeee14</li>
+      <li>messageeee15</li>
+      <li>messageeee16</li>
+      <li>messageeee17</li>
+      <li>messageeee18</li>
+      <li>messageeee19</li>
+      <li>messageeee20</li>
+      <li>messageeee21</li>
+      <li>messageeee22</li>
+      <li>messageeee23</li>
+      <li>messageeee24</li>
+      <li>messageeee25</li>
+      <li>messageeee26</li>
+      <li>messageeee27</li>
+      <li>messageeee28</li>
+      <li>messageeee29</li>
+      <li>messageeee30</li>
+      <li>messageeee31</li>
+      <li>messageeee32</li>
+      <li>messageeee33</li>
+      <li>messageeee34</li>
+      <li>messageeee35</li>
+      <li>messageeee36</li>
+      <li>messageeee37</li>
+      <li>messageeee38</li>
+      <li>messageeee39</li>
+      <li>messageeee40</li>
+      <li>messageeee41</li>
+      <li>messageeee42</li>
+      <li>messageeee43</li>
+      <li>messageeee44</li>
+      <li>messageeee45</li>
+      <li>messageeee46</li>
+      <li>messageeee47</li>
+      <li>messageeee48</li>
+      <li>messageeee49</li>
+      <li>messageeee50</li>
+      <li>messageeee51</li>
+      <li>messageeee52</li>
+      <li>messageeee53</li>
+      <li>messageeee54</li>
+      <li>messageeee55</li>
+      <li>messageeee56</li>
+      <li>messageeee57</li>
+      <li>messageeee58</li>
+      <li>messageeee59</li>
+      <li>messageeee60</li>
+      <li>messageeee61</li>
+      <li>messageeee62</li>
+      <li>messageeee63</li>
+      <li>messageeee64</li>
+      <li>messageeee65</li>
+      <li>messageeee66</li>
+      <li>messageeee67</li>
+      <li>messageeee68</li>
+      <li>messageeee69</li>
+      <li>messageeee70</li>
+      <li>messageeee71</li>
+      <li>messageeee72</li>
+      <li>messageeee73</li>
+      <li>messageeee74</li>
+      <li>messageeee75</li>
+      <li>messageeee76</li>
+      <li>messageeee77</li>
+      <li>messageeee78</li>
+      <li>messageeee79</li>
+      <li>messageeee80</li>
+      <li>messageeee81</li>
+      <li>messageeee82</li>
+      <li>messageeee83</li>
+      <li>messageeee84</li>
+      <li>messageeee85</li>
+      <li>messageeee86</li>
+      <li>messageeee87</li>
+      <li>messageeee88</li>
+      <li>messageeee89</li>
+      <li>messageeee90</li>
+      <li>messageeee91</li>
+      <li>messageeee92</li>
+      <li>messageeee93</li>
+      <li>messageeee94</li>
+      <li>messageeee95</li>
+      <li>messageeee96</li>
+      <li>messageeee97</li>
+      <li>messageeee98</li>
+      <li>messageeee99</li>
+      <li>messageeee100</li>
+      <li>messageeee101</li>
+      <li>messageeee102</li>
+      <li>messageeee103</li>
+      <li>messageeee104</li>
+      <li>messageeee105</li>
+      <li>messageeee106</li>
+      <li>messageeee107</li>
+      <li>messageeee108</li>
+      <li>messageeee109</li>
+      <li>messageeee110</li>
+      <li>messageeee111</li>
+      <li>messageeee112</li>
+      <li>messageeee113</li>
+      <li>messageeee114</li>
+      <li>messageeee115</li>
+      <li>messageeee116</li>
+      <li>messageeee117</li>
+      <li>messageeee118</li>
+      <li>messageeee119</li>
+      <li>messageeee120</li>
+      <li>messageeee121</li>
+      <li>messageeee122</li>
+      <li>messageeee123</li>
+      <li>messageeee124</li>
+      <li>messageeee125</li>
+      <li>messageeee126</li>
+      <li>messageeee127</li>
+      <li>messageeee128</li>
+      <li>messageeee129</li>
+      <li>messageeee130</li>
+      <li>messageeee131</li>
+      <li>messageeee132</li>
+      <li>messageeee133</li>
+      <li>messageeee134</li>
+      <li>messageeee135</li>
+      <li>messageeee136</li>
+      <li>messageeee137</li>
+      <li>messageeee138</li>
+      <li>messageeee139</li>
+      <li>messageeee140</li>
+      <li>messageeee141</li>
+      <li>messageeee142</li>
+      <li>messageeee143</li>
+      <li>messageeee144</li>
+      <li>messageeee145</li>
+      <li>messageeee146</li>
+      <li>messageeee147</li>
+      <li>messageeee148</li>
+      <li>messageeee149</li>
+      <li>messageeee150</li>
+      <li>messageeee151</li>
+      <li>messageeee152</li>
+      <li>messageeee153</li>
+      <li>messageeee154</li>
+      <li>messageeee155</li>
+      <li>messageeee156</li>
+      <li>messageeee157</li>
+      <li>messageeee158</li>
+      <li>messageeee159</li>
+      <li>messageeee160</li>
+      <li>messageeee161</li>
+      <li>messageeee162</li>
+      <li>messageeee163</li>
+      <li>messageeee164</li>
+      <li>messageeee165</li>
+      <li>messageeee166</li>
+      <li>messageeee167</li>
+      <li>messageeee168</li>
+      <li>messageeee169</li>
+      <li>messageeee170</li>
+      <li>messageeee171</li>
+      <li>messageeee172</li>
+      <li>messageeee173</li>
+      <li>messageeee174</li>
+      <li>messageeee175</li>
+      <li>messageeee176</li>
+      <li>messageeee177</li>
+      <li>messageeee178</li>
+      <li>messageeee179</li>
+      <li>messageeee180</li>
+      <li>messageeee181</li>
+      <li>messageeee182</li>
+      <li>messageeee183</li>
+      <li>messageeee184</li>
+      <li>messageeee185</li>
+      <li>messageeee186</li>
+      <li>messageeee187</li>
+      <li>messageeee188</li>
+      <li>messageeee189</li>
+      <li>messageeee190</li>
+      <li>messageeee191</li>
+      <li>messageeee192</li>
+      <li>messageeee193</li>
+      <li>messageeee194</li>
+      <li>messageeee195</li>
+      <li>messageeee196</li>
+      <li>messageeee197</li>
+      <li>messageeee198</li>
+      <li>messageeee199</li>
+      <li>messageeee200</li>
+    </ul>
+  </div>
 </template>
 
 <script>
+import BScroll from "better-scroll";
+
 export default {
-  name: 'Category'
-}
+  name: "Category",
+  data() {
+    return {
+      scroll: null
+    }
+  },
+  mounted() {
+    this.scroll = new BScroll('.wrapper', {
+      probeType: 3,
+      pullUpLoad: true,
+      click: true
+    })
+
+    this.scroll.on('pullingUp', () => {
+      console.log('上拉加载更多');
+    })
+  }
+};
 </script>
 
-<style>
-
+<style scoped>
+.wrapper {
+  height: 250px;
+  background-color: #bfa;
+  overflow: hidden;
+}
 </style>

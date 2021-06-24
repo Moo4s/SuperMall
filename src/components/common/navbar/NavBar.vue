@@ -14,6 +14,8 @@ export default {
 
 <style>
 .nav-bar {
+  position: relative;
+  z-index: 9999;
   display: flex;
   height: 44px;
   text-align: center;

@@ -38,20 +38,19 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .tab-control {
-  background-color: #fff;
   display: flex;
-  /* box-shadow: 0 1px 1px rgba(100, 100, 100, 0.1); */
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+  background-color: #fff;
+  font-weight: bold;
   z-index: 9;
 }
 
 .tab-control-item {
   flex: 1;
-  text-align: center;
-  line-height: 35px;
-  font-size: 15px;
-  font-weight: bold;
 }
 
 .tab-control-item span {
