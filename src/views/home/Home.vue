@@ -9,7 +9,7 @@
       v-show="isTabFixed"
     ></tab-control>
     <scroll
-      class="content"
+      class="home-content"
       ref="scroll"
       :probe-type="3"
       :pull-up-load="true"
@@ -45,7 +45,7 @@ import GoodsList from "content/goods/GoodsList.vue";
 import BackTop from "content/backTop/BackTop.vue";
 
 import { getHomeMultidata, getHomeData } from "network/home";
-import { debounce } from "../../common/utils";
+import {itemListenerMixin} from "../../common/mixin"
 
 export default {
   name: "Home",
@@ -59,6 +59,7 @@ export default {
     Scroll,
     BackTop,
   },
+  mixins: [itemListenerMixin],
   data() {
     return {
       banners: [],
@@ -83,7 +84,11 @@ export default {
     this.$refs.scroll.refresh()
   },
   deactivated() {
+    // 1.保存Y值
     this.saveY = this.$refs.scroll.getScrollY()
+
+    // 2.取消全局事件的监听
+    this.$bus.$off('itemImageLoad', this.itemImgListener)
   },
   created() {
     // 1.请求多个数据
@@ -95,14 +100,6 @@ export default {
     this.getHomeData("sell");
   },
   mounted() {
-    // 1.监听item中图片加载完成
-    const refresh = debounce(
-      this.$refs.scroll && this.$refs.scroll.refresh,
-      300
-    );
-    this.$bus.$on("itemImageLoad", () => {
-      refresh();
-    });
   },
   computed: {
     showGoods() {
@@ -191,7 +188,7 @@ export default {
   z-index: 9999; */
 }
 
-.content {
+.home-content {
   position: absolute;
   top: 44px;
   bottom: 49px;
