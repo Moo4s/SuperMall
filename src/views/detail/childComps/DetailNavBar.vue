@@ -22,6 +22,11 @@ export default {
   components: {
     NavBar,
   },
+  props: {
+    detailIndex: {
+      type: Number
+    }
+  },
   data() {
     return {
       titles: ["商品", "参数", "评论", "推荐"],
@@ -31,6 +36,7 @@ export default {
   methods: {
     currentTitle(index) {
       this.currentIndex = index;
+      this.$emit('titleClick', index)
     },
     backClick() {
       this.$router.back()

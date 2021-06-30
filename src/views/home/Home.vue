@@ -29,7 +29,7 @@
       ></tab-control>
       <goods-list :goods="showGoods"></goods-list>
     </scroll>
-    <back-top @click.native="backClick" v-show="isShowBackTop"></back-top>
+    <back-top @click.native="backClick" v-show="isShowBackTop" />
   </div>
 </template>
 
@@ -77,11 +77,14 @@ export default {
     };
   },
   destroyed() {
-    // console.log('home des');
+    console.log('home des');
   },
   activated() {
     this.$refs.scroll.scrollTo(0, this.saveY, 0)
+    
     this.$refs.scroll.refresh()
+
+    // console.log(this.$refs.scroll.scroll.y);
   },
   deactivated() {
     // 1.保存Y值
@@ -98,6 +101,7 @@ export default {
     this.getHomeData("pop");
     this.getHomeData("new");
     this.getHomeData("sell");
+    // console.log('home cre');
   },
   mounted() {
   },
