@@ -1,6 +1,6 @@
 <template>
   <div class="goods-item" @click="itemClick">
-    <img :src="showImage" alt="" @load="imageLoad" />
+    <img v-lazy="showImage" alt="" @load="imageLoad" />
     <div class="goods-info">
       <p>{{ goodsItem.title }}</p>
       <span class="price">{{ goodsItem.price }}</span>
@@ -34,7 +34,6 @@ export default {
       this.$bus.$emit("itemImageLoad");
     },
     itemClick() {
-      
       this.$router.push('/detail/' + this.goodsItem.iid)
     }
   },
@@ -52,6 +51,7 @@ export default {
   border-radius: 5px;
   /* 不建议固定宽度,设置百分比可以适配不同显示屏 */
   width: 100%;
+  height: 100%;
 }
 
 .goods-info {

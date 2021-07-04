@@ -80,15 +80,15 @@ export default {
     console.log('home des');
   },
   activated() {
-    this.$refs.scroll.scrollTo(0, this.saveY, 0)
-    
     this.$refs.scroll.refresh()
-
-    // console.log(this.$refs.scroll.scroll.y);
+    this.$refs.scroll.scrollTo(0, this.saveY, 0)
+    console.log(this.$refs.scroll.scroll.y);
+    console.log(this.saveY);
   },
   deactivated() {
     // 1.保存Y值
     this.saveY = this.$refs.scroll.getScrollY()
+    console.log(this.saveY);
 
     // 2.取消全局事件的监听
     this.$bus.$off('itemImageLoad', this.itemImgListener)
@@ -167,6 +167,7 @@ export default {
         this.goods[type].list.push(...res.data.list);
         // 完成上拉加载更多
         this.$refs.scroll.finishPullUp();
+        this.$refs.scroll.refresh();
       });
     },
   },
